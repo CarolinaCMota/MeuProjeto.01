@@ -1,0 +1,60 @@
+body { 
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin:0 /* esse eh pra colar 100% em cima, pq sempre tem 8px nos cantinhos de padrao */
+
+}
+
+#hero{
+  width: 592px;
+  margin:0 auto 72px; /* o 0 é a distancia da margem do colado em cima, o auto é pras laterais, e o 72 eh pra baixo. entao a ordem eh cima, lado, baixo e so colocar o valor que deseja ou automatico*/
+}
+
+#hero img {
+ margin-bottom: 72px;
+}
+
+h1 { 
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px; /* altura da linha, hight significa altura */
+  font-weight: normal;
+
+  margin-bottom: 32px;
+}
+
+h1 span {font-weight: bold;}
+
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer {
+  margin-bottom:33px ;
+}
+
+#footer a + a {
+margin-left: 28px ;
+}
+
+.line {
+width: 568px;
+height: 0px;
+
+margin:0 auto 8px;
+
+border: 7px red solid;
+}
+
+#balls {
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+}
